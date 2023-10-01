@@ -39,7 +39,7 @@
           </li>
           <li class="nav__link">
             <a
-              href="#"
+              href="#projects"
               class="nav__link--anchor link__hover--effect link__hover--effect--black"
               >Projects</a
             >
@@ -96,9 +96,11 @@
           </div>
         </div>
       </header>
+      <a href="#">
       <button class="mail__btn click" onclick="toggleModal()">
         <i class="fas fa-envelope"></i>
       </button>
+    </a>
       <a href="#projects" class="scroll">
         <div class="scroll__icon click"></div>
       </a>
@@ -162,15 +164,15 @@
           <form onsubmit="contact(event)" id="contact__form">
             <div class="form__item">
               <label class="form__item--label">Name</label>
-              <input class="input" name="user_name" type="text" required  ></input>
+              <input class="input" name="user_name" type="text" required/></input>
             </div>
             <div class="form__item">
               <label class="form__item--label">Email</label>
-              <input class="input" name="user_email" type="email" required ></input>
+              <input class="input" name="user_email" type="email" required/></input>
             </div>
             <div class="form__item">
               <label class="form__item--label">Message</label>
-              <textarea class="input" name="message" type="text" required ></textarea>
+              <textarea class="input" name="message" type="text" required></textarea>
             </div>
             <button id="contact__submit" class="form__submit">Send it to me</button>
           </form>
@@ -307,22 +309,22 @@
           </figure>
           <div class="footer__social--list">
             <a
-              href=""
+              href="https://github.com/Conspiracies" target="_blank"
               class="footer__social--link link__hover--effect link__hover--effect--white"
               >GitHub</a
             >
             <a
-              href=""
+              href="https://www.linkedin.com" target="_blank"
               class="footer__social--link link__hover--effect link__hover--effect--white"
               >LinkedIn</a
             >
             <a
-              href=""
+              href="#" onclick="toggleModal()"
               class="footer__social--link link__hover--effect link__hover--effect--white"
-              >Email</a
+              >Contact</a
             >
             <a
-              href=""
+              href="./assets/Example Resume.pdf" target="_blank"
               class="footer__social--link link__hover--effect link__hover--effect--white"
               >Resume</a
             >
